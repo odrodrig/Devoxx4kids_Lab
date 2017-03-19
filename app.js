@@ -69,11 +69,11 @@ const tone_analyzer = watson.tone_analyzer({
   version: 'v3'
 });
 
-// const conversation = new watson.ConversationV1({
-//   username: process.env.CONVERSATION_USERNAME || conversationUser,
-//   password: process.env.CONVERSATION_PASSWORD || conversationPass,
-//   version_date: watson.ConversationV1.VERSION_DATE_2017_02_03
-// });
+//*************************************
+//Add Watson connection here
+//*************************************
+
+
 
 /*********************************************************************************************************
                                         End of Parsing Service Credentials
