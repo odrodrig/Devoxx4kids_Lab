@@ -1,0 +1,21 @@
+declared-services:
+  language-translator:
+    label: language_translator
+    plan:  standard
+  tone-analyzer:
+    label: tone_analyzer
+    plan:  standard
+  conversation:
+    label: conversation
+    plan: free
+applications:
+- path: .
+  services:
+    - language-translator
+    - tone-analyzer
+    - conversation
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  disk_quota: 1024M
+  buildpack: sdk-for-nodejs
